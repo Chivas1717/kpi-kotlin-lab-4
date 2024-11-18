@@ -48,7 +48,7 @@ fun CableCalculatorApp(modifier: Modifier = Modifier) {
 
 
     var conductorTypeExpanded by remember { mutableStateOf(false) }
-    var conductorType by remember { mutableStateOf("Тип провідника") }
+    var conductorType by remember { mutableStateOf("Тип провідника:") }
     val conductorTypeOptions = listOf(
         "Неізольовані проводи та шини",
         "Кабелі з паперовою і проводи з гумовою та полівінілхлоридною ізоляцією з жилами",
